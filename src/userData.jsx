@@ -66,7 +66,7 @@ class userData extends Component {
         if (userData !== '') {
             return (
                 <div>
-                    <h3>UserData</h3>
+                    <h3>User Result Data</h3>
                     <div className="DownloadExcel">
                         <ReactHTMLTableToExcel
                             id="test-table-xls-button"
@@ -89,6 +89,7 @@ class userData extends Component {
                                 <th>EMAIL</th>
                                 <th>COURSE_NAME</th>
                                 <th>MARKS</th>
+                                <th>CODE SCORE</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -98,6 +99,7 @@ class userData extends Component {
                                     <td>{data.email}</td>
                                     <td>{data.moduleName}</td>
                                     <td>{data.marks}</td>
+                                    <td>{data.codeScore}</td>
                                 </tr>
                             ))}
                         </tbody>
@@ -115,6 +117,7 @@ class userData extends Component {
                             <th>EMAIL</th>
                             <th>COURSE_NAME</th>
                             <th>MARKS</th>
+                            <th>CODE SCORE</th>
                         </tr>
                     </thead>
                 </table>
