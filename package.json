@@ -11,7 +11,7 @@
     "react-html-table-to-excel": "^2.0.0",
     "react-scripts": "3.0.1",
     "reactstrap": "^8.0.1",
-    "xlsx": "^0.14.4"
+    "xlsx": "^0.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
